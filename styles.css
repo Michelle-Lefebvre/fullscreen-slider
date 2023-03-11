@@ -1,0 +1,11 @@
+body {
+  background: black;
+}
+
+#slider {
+  background: whitesmoke;
+  border-radius: 2rem;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
