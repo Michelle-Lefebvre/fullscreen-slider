@@ -1,4 +1,4 @@
-const container = document.querySelector("#container");
+const photos = document.querySelector(".photos");
 
 const hrefs = [
   "images/pic-landscape-fall.png",
@@ -11,6 +11,6 @@ const hrefs = [
 const imgs = hrefs.map(function (hrf) {
   const img = new Image();
   img.src = hrf;
-  container.appendChild(img);
+  slider.appendChild(img);
   return img;
 });
